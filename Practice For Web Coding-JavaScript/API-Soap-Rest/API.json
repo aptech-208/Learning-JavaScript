@@ -1,0 +1,18 @@
+[
+    {
+        "Category": "API",
+        "Title": "SOAP API Example",
+        "Description": "An example of how to use SOAP API in JavaScript.",
+        "name": "soapApiExample",
+        "username": "yourUsername",
+        "password": "yourPassword"
+    },
+    {
+        "Category": "Json",
+        "Title": "rest api example",
+        "Description": "An example of how to use REST API in JavaScript.",
+        "name": "restApiExample",
+        "username": "myUsername",
+        "password": "myPassword"
+    }
+]

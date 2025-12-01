@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Trial</title>
+    <style>
+        #btnat {
+            margin-top: 40vh;
+            padding: 20px;
+        }
+
+        #btnatj {
+            margin-top: 50vh;
+            padding: 20px;
+        }
+
+        #btn {
+            margin-top: 50vh;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Event With The Help oF Attributes - Not Prefered Method -->
+    <center><button id="btnat" onclick="alert('Error Occured')">Trigger For Event</button></center>
+    <!-- With Custom Function From Js -->
+    <center><button id="btnatj" onclick="custom()">Trigger For Event 2</button></center>
+
+    <!-- Event With The Help oF JavaScript - Prefered Method -->
+    <center><button id="btn">Trigger For Event Js</button></center>
+
+    <select name="text" id="drop">
+        <option value="">Male</option>
+        <option value="">Female</option>
+        <option value="">Other</option>
+    </select>
+
+    <input type="text" name="" id="txt">
+
+    <script src="../Js/Javascript-Events.js"></script>
+</body>
+
+</html>
